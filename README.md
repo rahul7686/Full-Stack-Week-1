@@ -2,6 +2,10 @@
 
 A responsive, mobile-first frontend project built with semantic HTML, modern CSS, and a small amount of JavaScript for interaction.
 
+## Live Demo
+
+- https://full-stack-week-1.vercel.app/
+
 ## Overview
 
 This project focuses on clean structure, responsive layout, and accessible UI patterns. It includes:
