@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1 | Responsive Frontend Interface</title>
+    <meta
+      name="description"
+      content="A responsive, semantic, mobile-first frontend interface built with HTML, CSS, and basic JavaScript."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home" aria-label="Project 1 home">
+          <span class="brand-mark">P1</span>
+          <span class="brand-text">Responsive Interface</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#vision">Vision</a>
+          <a href="#toolkit">Toolkit</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#demo">Demo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Project 1 · Responsive Frontend Interface</p>
+            <!-- <h1>Build a clean, responsive web experience that feels intentional on every screen.</h1> -->
+            <p class="lead">
+              This project demonstrates semantic HTML, modern CSS layout, and lightweight
+              JavaScript in a warm, polished UI inspired by the assignment brief.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#demo">Explore the layout</a>
+              <a class="button button-secondary" href="#toolkit">See the toolkit</a>
+            </div>
+            <ul class="hero-points" aria-label="Key highlights">
+              <li>Mobile-first design</li>
+              <li>Flexible CSS Grid and Flexbox</li>
+              <li>Accessible semantic structure</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-hidden="true">
+            <div class="device-card">
+              <div class="device-topbar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="device-screen">
+                <div class="screen-header">
+                  <span class="pill pill-accent">Responsive</span>
+                  <span class="pill">2025 Aesthetics</span>
+                </div>
+                <div class="screen-layout">
+                  <article>
+                    <strong>HTML</strong>
+                    <p>Semantic structure</p>
+                  </article>
+                  <article>
+                    <strong>CSS</strong>
+                    <p>Grid + Flexbox</p>
+                  </article>
+                  <article>
+                    <strong>JS</strong>
+                    <p>Basic interactivity</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="vision" class="section section-alt">
+        <div class="container split">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The Vision</p>
+            <h2>Architecting for the mobile web, without losing desktop polish.</h2>
+            <p>
+              The layout starts as a single-column experience and scales upward with clear
+              hierarchy, generous spacing, and an atmosphere that matches the warm design
+              direction shown in the brief.
+            </p>
+          </div>
+          <div class="stat-panel reveal">
+            <div>
+              <span>Strategy</span>
+              <strong>Discover, wireframe, refine</strong>
+            </div>
+            <div>
+              <span>Structure</span>
+              <strong>Header, main, article, footer</strong>
+            </div>
+            <div>
+              <span>Focus</span>
+              <strong>Accessibility and responsive flow</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="toolkit" class="section">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="eyebrow">The Toolkit</p>
+            <h2>HTML, CSS, and JavaScript working together cleanly.</h2>
+            <p>
+              No frameworks. Just solid fundamentals, arranged into a visual system that is
+              easy to read, adapt, and extend.
+            </p>
+          </div>
+
+          <div class="toolkit-grid">
+            <article class="tool-card reveal">
+              <div class="tool-icon">H</div>
+              <h3>Semantic HTML</h3>
+              <p>
+                Content is organized into meaningful sections and landmarks so the page stays
+                accessible and maintainable.
+              </p>
+            </article>
+            <article class="tool-card reveal">
+              <div class="tool-icon">C</div>
+              <h3>Responsive CSS</h3>
+              <p>
+                Fluid spacing, layered backgrounds, and breakpoints around tablet and desktop
+                sizes create a polished adaptive layout.
+              </p>
+            </article>
+            <article class="tool-card reveal">
+              <div class="tool-icon">J</div>
+              <h3>Basic JavaScript</h3>
+              <p>
+                A small interaction layer keeps the experience lively without distracting from
+                the core design.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section section-alt">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">The Roadmap</p>
+            <h2>A simple workflow from discovery to audit.</h2>
+          </div>
+
+          <ol class="roadmap">
+            <li class="reveal">
+              <span>1</span>
+              <div>
+                <h3>Discovery</h3>
+                <p>Define the problem, read the brief, and identify the user experience goals.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>2</span>
+              <div>
+                <h3>Wireframe</h3>
+                <p>Shape the hierarchy first in grayscale before refining visuals and spacing.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>3</span>
+              <div>
+                <h3>Build</h3>
+                <p>Use semantic HTML, CSS Grid, Flexbox, and fluid typography to implement it.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span>4</span>
+              <div>
+                <h3>Audit</h3>
+                <p>Check responsiveness, contrast, and interaction quality across screen sizes.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="demo" class="section">
+        <div class="container demo-grid">
+          <article class="demo-panel reveal">
+            <p class="eyebrow">Live Preview</p>
+            <h2>You are the architect.</h2>
+            <p>
+              This layout is intentionally designed to look strong on a phone first, then scale
+              up gracefully on tablet and desktop.
+            </p>
+            <button id="themeToggle" class="button button-primary" type="button">
+              Toggle accent mood
+            </button>
+          </article>
+
+          <aside class="demo-panel demo-note reveal">
+            <h3>Next steps</h3>
+            <ul>
+              <li>Open this file in a browser.</li>
+              <li>Resize the window to test responsiveness.</li>
+              <li>Use the toggle to see the small JS interaction.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Project 1 · Responsive Frontend Interface</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>
